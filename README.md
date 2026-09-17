@@ -1,5 +1,5 @@
 # Funnel Drop-off & Cart Abandonment Analysis
-### Why does an e-commerce platform with 5 lakh visitors/month earn only ■7 Cr?
+### Why does an e-commerce platform with 5 lakh visitors/month earn only 7 Cr?
 > Built end-to-end using MySQL · Python · Power BI
 > Synthetic dataset · 500K sessions · 4 tables · Real-world analyst workflow
 ---
