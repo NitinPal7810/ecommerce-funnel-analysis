@@ -62,7 +62,8 @@ friction
 ecommerce-funnel-analysis/
 ■■■ data/ Schema + sample CSVs
 ■■■ sql/ 10 queries (numbered, sequential)
-■■■ python/ 6 analysis scripts + requirements.txt ■■■ powerbi/ Dashboard PDF + .pbix
+■■■ python/ 6 analysis scripts + requirements.txt
+■■■ powerbi/ Dashboard PDF + .pbix
 ■■■ outputs/ Charts, screenshots
 ■■■ docs/ SQL and Python documentation PDFs
 ```
