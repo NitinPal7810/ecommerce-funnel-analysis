@@ -40,27 +40,6 @@ campaigns wrong |
 > The GMV Recovery Simulator (bottom row) lets you drag a slider from 0–20%
 > and watch the ■ Crore card update in real time. Built using DAX What-If Parameters.
 ---
-## How to Run
-### SQL Layer
-```sql
--- 1. Create the database
-CREATE DATABASE e_com_funnel;
-USE e_com_funnel;
--- 2. Run schema
-SOURCE data/schema.sql;
--- 3. Run queries in order
--- Start with sql/01_session_funnel_flags.sql (creates the foundation VIEW)
--- Then run 02 through 10 in sequence
-```
-### Python Layer
-```bash
-pip install -r python/requirements.txt
-# Update DB credentials in 01_data_loading.py
-# engine = create_engine('mysql+pymysql://root:PASSWORD@localhost:3306/e_com_funnel')
-python python/02_funnel_analysis.py
-python python/04_funnel_chart.py # Generates outputs/charts/funnel_waterfall.html
-```
----
 ## Key Learnings
 - `MAX(CASE WHEN ...)` is the correct SQL pattern for multi-row-to-single-row funnel flags
 - `pct_change()` in pandas gives negative CVR% — wrong. Use `current/previous * 100`
