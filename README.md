@@ -18,11 +18,12 @@ This project answers three questions leadership actually asks:
 |---|---|---|
 | PDP → Cart is the biggest leak | 2,13,697 sessions/month lost here | Trust/UX issue on product pages |
 | Mobile checkout is broken | 8.4pp lower CVR vs desktop at ATC→Checkout | Not intent — pure UX friction |
-| Paid Ads bring the wrong traffic | CVR 4.2% vs Organic 6.6% | ■57 less GMV per session | | Evening converts 35-55% better | 7.7–8.0% CVR at 18–22hrs vs 5.3% afternoon | Timing
-campaigns wrong |
-| ■1.94 Cr sitting in abandoned carts | 73.4% abandonment, 81,756 sessions/month | 10% recovery
-= ■1.94 Cr/mo | ---
+| Paid Ads bring the wrong traffic | CVR 4.2% vs Organic 6.6% | ■57 less GMV per session | | Evening converts 35-55% better | 7.7–8.0% CVR at 18–22hrs vs 5.3% afternoon | Timing campaigns wrong |
+| 1.94 Cr sitting in abandoned carts | 73.4% abandonment, 81,756 sessions/month | 10% recovery = 1.94 Cr/mo | 
+---
+
 ## Tech Stack
+
 | Layer | Tool | What I did |
 |---|---|---|
 | Data | MySQL 8.0 | 10 queries: funnel flags VIEW, window functions, CTEs |
