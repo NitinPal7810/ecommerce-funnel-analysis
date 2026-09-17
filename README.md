@@ -6,10 +6,14 @@
 ## The Problem
 Half a million users visit this platform every month. Only 5.92% of them buy something.
 The rest — 94 out of 100 — leave. That's not a traffic problem. That's a conversion problem.
-This project answers three questions leadership actually asks: 1. Where exactly in the funnel are users dropping off?
-2. Is the drop-off device/channel/time specific — or universal? 3. What is the ■ value of fixing the top 2 problems?
+This project answers three questions leadership actually asks: 
+
+1. Where exactly in the funnel are users dropping off?
+2. Is the drop-off device/channel/time specific — or universal? 
+3. What is the ■ value of fixing the top 2 problems?
 ---
 ## What I Found
+
 | Finding | Detail | Business Impact |
 |---|---|---|
 | PDP → Cart is the biggest leak | 2,13,697 sessions/month lost here | Trust/UX issue on product pages |
